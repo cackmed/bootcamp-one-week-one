@@ -5,14 +5,14 @@ const myButton = document.getElementById('action-button');
 
 
 myButton.onclick = function() {
-    alert('welcome to my quiz');
-    const myConfirmation = confirm('do you want to take my quiz?');
+    alert('Welcome to my quiz');
+    const myConfirmation = confirm('Do you want to take my quiz?');
     console.log(myConfirmation);
 
     const userAnswer = prompt('What is you Name?');
     const trimedLowercaseUserAnswer = userAnswer.toLowerCase().trim();
     console.log(userAnswer);
-    
+  
     const userAnswer2 = prompt('Have I ever had a pet rock? (yes/no)');
     const trimedLowercaseUserAnswer2 = userAnswer2.toLowerCase().trim();
     console.log(userAnswer2);
