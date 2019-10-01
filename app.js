@@ -9,13 +9,13 @@ myButton.onclick = function() {
     const myConfirmation = confirm('do you want to take my quiz?');
     console.log(myConfirmation);
 
-    const userAnswer = prompt('What is you Name?')
+    const userAnswer = prompt('What is you Name?');
     const trimedLowercaseUserAnswer = userAnswer.toLowerCase().trim();
     console.log(userAnswer);
     
     const userAnswer2 = prompt('Have I ever had a pet rock? (yes/no)');
     const trimedLowercaseUserAnswer2 = userAnswer2.toLowerCase().trim();
-    console.log(userAnswer);
+    console.log(userAnswer2);
 
     if (trimedLowercaseUserAnswer2 === 'yes')
         alert('bad start');
@@ -42,6 +42,8 @@ myButton.onclick = function() {
     else {
         alert('I am afraid that is incorrect');
     }
-    isCorrect(trimedLowercaseUserAnswer3);
+    isCorrect(trimedLowercaseUserAnswer4);
+
+    
 
 };
