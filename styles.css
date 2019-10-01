@@ -1,4 +1,4 @@
-.cat-cafe {
+.background-area {
     display: flex;
     flex-direction: column;
     justify-content: space-around; 
@@ -8,10 +8,13 @@
       
 
 }
-.kitten {
-    height: 100px;
-    width: 200px;
-    border: dotted 1px yellow;
-    background-color: lightpink;   
-     
+.titles {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center; 
 }
+
+.info1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
