@@ -47,3 +47,21 @@ myButton.onclick = function() {
     
 
 };
+var score = 0;
+if (prompt('Have I ever had a pet rock? (yes/no)') === 'yes'){
+    score = score + 1;
+}
+        
+document.getElementById('result').innerHTML = 'Thinking...';
+function showAnswer(){
+    if (score === 0) {
+        alert('This is a first');
+                    //worst rank
+        document.getElementById('result').innerHTML = score;
+    }
+    if (score === 1) {
+        alert('Nice');
+                    //first rank
+        document.getElementById('result').innerHTML = score;
+    }
+}
