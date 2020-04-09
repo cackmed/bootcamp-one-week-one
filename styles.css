@@ -1,0 +1,25 @@
+.background-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center;  
+    background-color: lightblue;
+    overflow-y: auto;
+      
+
+}
+.titles {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center; 
+}
+
+.info1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kittens {
+    display: flex;
+    justify-content: center;
+
+}
